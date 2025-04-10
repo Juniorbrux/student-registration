@@ -1,0 +1,68 @@
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.carousel-control-prev {
+  left: -60px;  /* Adjust this value to position the left button */
+}
+
+.carousel-control-next {
+  right: -60px; /* Adjust this value to position the right button */
+}
+
+/* Optional: Add a hover effect for better user interaction */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.features-post .content-hide {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.features-post .content-show {
+  cursor: pointer;
+}
+
+.features-post:hover .content-hide {
+  display: block;
+  opacity: 1;
+}
+/* About Us Section - Dark Blue Background */
+.about-us {
+  background-color: #003366; /* Dark blue */
+  color: white; /* White text */
+  padding: 60px 0; /* Add padding to give space around the content */
+}
+
+.about-us .section-heading h2 {
+  font-size: 36px;
+  color: white; /* White color for heading */
+  margin-bottom: 30px;
+}
+
+.about-us h4 {
+  color: #ffcc00; /* Yellow color for subheadings */
+}
+
+.about-us p {
+  color: #d0d0d0; /* Lighter color for paragraph text */
+  font-size: 16px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
